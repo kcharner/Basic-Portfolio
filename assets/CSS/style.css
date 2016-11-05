@@ -9,32 +9,44 @@ section {
 	background-image: url("assets/images/concrete_seamless.png");
 	overflow: auto;
 	clear: both;
+	border-top: 3px solid #dddddd;
 }
 
 #image {
 	width: 40%;
 	margin-left: 31px;
+	float: left;
 }
 
+header {
+	text-align: center;
+	line-height: 70px;
+	margin-top: auto;
+}
 
 h1 {
-	text-align: center;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	background-color: #4aaaa5;
 	color: white;
 	width: 350px;
-	padding-top: 40px;
-	padding-bottom: 40px;
-	margin-left: 155px;
-	margin-top: 0px;
+	margin-left: 157px;
+	margin-bottom: 0px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 15px;
+	padding-right: 15px;
 	display: inline;
+	float: left;
 }
 
-.navbar li {
+.navbar ul {
 	list-style-type: none;
 	float: right;
-	background-color: pink;
-	display: inline;
+	margin-right: 20px;
+	padding-right: 40px;
+	margin-top: 50px;
+	margin-right: 312px;	
+	font-size: 18px;
 }
 
 h2 {
@@ -43,21 +55,13 @@ h2 {
 	margin-left: 31px;
 }
 
-h3 {
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	color: #4aaaa5;
-	border-bottom: 2px solid #dddddd;
-	padding-left: 0px;
-	padding-right: 0px;
-}
-
 footer {
 	text-align: center;
 	background-color: #666666;
 	width: 100%; 
 	padding-top: 35px;
 	padding-bottom: 35px;
-	color: white;
+	color: #dddddd;
 	clear: both;
 }
 
@@ -65,9 +69,17 @@ ul {
 	list-style-type: none;
 }
 
+h3 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	border-bottom: 2px solid #dddddd;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 20px;
+}
+
 .sidebar	{
 	width: 270px;
-	height: 200px;
 	float: left;
 	background-color: #FFFFFF;
 	margin-top: 40px;
@@ -75,13 +87,24 @@ ul {
 	text-align: center;
 	padding-left: 0px;
 	padding-right: 0px;
+	display: inline;
+	align-items: center;
 
+}
+
+.icons {
+	height: 54px;
+	width: 54px;
+	display: inline;
+	padding-top: 5px;
+	padding-bottom: 30px; 
+	padding-right: 15px;
 }
 
 .main	{
 	width: 650px;
 	height: 480px;
-	border: 10px #dddddd;
+	border: 1px solid #dddddd;
 	background-color: #ffffff;
 	margin-top: 40px;
 	margin-bottom: 42px;
@@ -89,10 +112,24 @@ ul {
 	float: left;
 }
 
-.icons {
-	height: 54px;
-	width: 54px;
+.text {
+	margin: 15px;
+	padding-left: 15px;
 }
+
+.placeholders {
+	size: 150%;
+}
+
+.form {
+	padding-left: 33px;
+
+}
+
+
+
+
+
 
 
 
